@@ -2,6 +2,12 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './pages/Home.vue'
 import About from './pages/About.vue'
+import Directors from './pages/Directors.vue'
+import Development from './pages/Development.vue'
+import Survey from './pages/Survey.vue'
+import Press from './pages/Press.vue'
+import Contact from './pages/Contact.vue'
+import Donate from './pages/Donate.vue'
 import Foo from './pages/Foo.vue'
 import Bar from './pages/Bar.vue'
 import BlogPost from './pages/BlogPost.vue'
@@ -20,6 +26,36 @@ export default new Router({
             path: '/about',
             name: 'about',
             component: About
+        },
+        {
+            path: '/directors',
+            name: 'directors',
+            component: Directors
+        },
+        {
+            path: '/development',
+            name: 'development',
+            component: Development
+        },
+        {
+            path: '/press',
+            name: 'press',
+            component: Press
+        },
+        {
+            path: '/contact',
+            name: 'contact',
+            component: Contact
+        },
+        {
+            path: '/survey',
+            name: 'survey',
+            component: Survey
+        },
+        {
+            path: '/donate',
+            name: 'donate',
+            component: Donate
         },
         {
             path: '/foo',

@@ -41,7 +41,7 @@
                   <div class="md-list-item-content">
                     <md-button
                       slot="title"
-                      to="/About"
+                      to="/about"
                       class="md-button md-button-link md-white md-simple"
                     >
                       <p>About</p>
@@ -66,10 +66,10 @@
                       </md-button>
                       <ul class="dropdown-menu dropdown-with-icons">
                         <li>
-                          <router-link to="/about">Board of Directors</router-link>
+                          <router-link to="/directors">Board of Directors</router-link>
                         </li>
                         <li>
-                          <router-link to="/about">Development Team</router-link>
+                          <router-link to="/development">Development Team</router-link>
                         </li>
                       </ul>
                     </drop-down>
@@ -93,13 +93,13 @@
                       </md-button>
                       <ul class="dropdown-menu dropdown-with-icons">
                         <li>
-                          <router-link to="/">Tenants</router-link>
+                          <router-link to="/survey">Tenants</router-link>
                         </li>
                         <li>
-                          <router-link to="/">Landlords</router-link>
+                          <router-link to="/survey">Landlords</router-link>
                         </li>
                         <li>
-                          <router-link to="/">Developers</router-link>
+                          <router-link to="/survey">Developers</router-link>
                         </li>
                       </ul>
                     </drop-down>
@@ -115,7 +115,7 @@
                   <div class="md-list-item-content">
                     <md-button
                       slot="title"
-                      to="/About"
+                      to="/press"
                       class="md-button md-button-link md-white md-simple"
                     >
                       <p>Press</p>
@@ -132,7 +132,7 @@
                   <div class="md-list-item-content">
                     <md-button
                       slot="title"
-                      to="/About"
+                      to="/contact"
                       class="md-button md-button-link md-white md-simple"
                     >
                       <p>Contact</p>
@@ -147,7 +147,7 @@
                   class="md-list-item-router md-list-item-container md-button-clean"
                 >
                   <div class="md-list-item-content">
-                    <md-button class="md-success md-round">
+                    <md-button class="md-success md-round" to="/donate">
                       <md-icon>favorite</md-icon>Donate
                     </md-button>
                   </div>
