@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './pages/Home.vue'
+import About from './pages/About.vue'
 import Foo from './pages/Foo.vue'
 import Bar from './pages/Bar.vue'
+import BlogPost from './pages/BlogPost.vue'
 
 Vue.use(Router)
 
@@ -15,6 +17,11 @@ export default new Router({
             component: Home
         },
         {
+            path: '/about',
+            name: 'about',
+            component: About
+        },
+        {
             path: '/foo',
             name: 'foo',
             component: Foo
@@ -23,6 +30,11 @@ export default new Router({
             path: '/bar',
             name: 'bar',
             component: Bar
+        },
+        {
+            path: '/blog-post',
+            name: 'blog-post',
+            component: BlogPost
         },
         // {
         //     path: '/storage-guide/start',
