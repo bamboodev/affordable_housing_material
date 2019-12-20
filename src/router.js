@@ -72,6 +72,10 @@ export default new Router({
             name: 'blog-post',
             component: BlogPost
         },
+        {
+            path: '/*',
+            component: Foo
+        },
         // {
         //     path: '/storage-guide/start',
         //     name: 'storage-guide-start',
