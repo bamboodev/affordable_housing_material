@@ -15,39 +15,19 @@
                   <img :src="img" alt="Circle Image" class="img-raised rounded-circle img-fluid" />
                 </div>
                 <div class="name">
-                  <h3 class="title">Carla Hortensia</h3>
-                  <h6>Designer</h6>
-                  <md-button href="javascript:void(0)" class="md-just-icon md-simple md-dribbble">
-                    <i class="fab fa-dribbble" />
-                  </md-button>
-                  <md-button href="javascript:void(0)" class="md-just-icon md-simple md-twitter">
-                    <i class="fab fa-twitter" />
-                  </md-button>
-                  <md-button href="javascript:void(0)" class="md-just-icon md-simple md-pinterest">
-                    <i class="fab fa-pinterest" />
-                  </md-button>
-                </div>
-                <div class="follow">
-                  <md-button class="md-success md-just-icon md-round">
-                    <md-icon>add</md-icon>
-                    <md-tooltip md-direction="top">Follow this user</md-tooltip>
-                  </md-button>
+                  <h3 class="title">Affordability Project</h3>
+                  <h6>Media Kit</h6>
                 </div>
               </div>
             </div>
           </div>
           <div class="description text-center">
-            <p>
-              An artist of considerable range, Chet Faker — the name taken by
-              Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs
-              and records all of his own music, giving it a warm, intimate feel
-              with a solid groove structure.
-            </p>
+            <p>We will identify San Franciscans who are eligible recipients of our donations and bring candidates through a vetting process. We will identify San Franciscans who are eligible recipients of our donations and bring candidates through a vetting process.</p>
           </div>
           <div class="profile-tabs">
             <tabs
               :tab-active="1"
-              :tab-name="['Studio', 'Work', 'Favorite']"
+              :tab-name="['Downloads', 'Profiles', 'Gallery']"
               :tab-icon="['camera', 'palette', 'favorite']"
               plain
               nav-pills-icons
@@ -62,9 +42,9 @@
                       <div class="md-layout-item md-size-50 md-small-size-100">
                         <full-bg-card :card-image="cardFullBg.fullBg1">
                           <template slot="cardContent">
-                            <badge type="warning">Spring 2016</badge>
+                            <badge type="warning">Housing Report 2016</badge>
                             <a href="javascript:void(0)">
-                              <h2 class="card-title">Espace</h2>
+                              <h2 class="card-title">California</h2>
                             </a>
                           </template>
                         </full-bg-card>
@@ -72,9 +52,9 @@
                       <div class="md-layout-item md-size-50 md-small-size-100">
                         <full-bg-card :card-image="cardFullBg.fullBg2">
                           <template slot="cardContent">
-                            <badge type="info">Spring 2016</badge>
+                            <badge type="info">Landlord Survey</badge>
                             <a href="javascript:void(0)">
-                              <h2 class="card-title">Portland Rose</h2>
+                              <h2 class="card-title">Bay Area</h2>
                             </a>
                           </template>
                         </full-bg-card>
@@ -82,9 +62,9 @@
                       <div class="md-layout-item md-size-50 md-small-size-100">
                         <full-bg-card :card-image="cardFullBg.fullBg3">
                           <template slot="cardContent">
-                            <badge type="danger">Summer 2016</badge>
+                            <badge type="danger">Developer Guidelines</badge>
                             <a href="javascript:void(0)">
-                              <h2 class="card-title">Canberra</h2>
+                              <h2 class="card-title">Oakland</h2>
                             </a>
                           </template>
                         </full-bg-card>
@@ -92,9 +72,9 @@
                       <div class="md-layout-item md-size-50 md-small-size-100">
                         <full-bg-card :card-image="cardFullBg.fullBg4">
                           <template slot="cardContent">
-                            <badge type="success">Winter 2015</badge>
+                            <badge type="success">Winter 2019</badge>
                             <a href="javascript:void(0)">
-                              <h2 class="card-title">Floralia</h2>
+                              <h2 class="card-title">San Francisco</h2>
                             </a>
                           </template>
                         </full-bg-card>
@@ -105,29 +85,18 @@
                     <h4 class="title title-margin">Stats</h4>
                     <ul class="list-unstyled">
                       <li>
-                        <b>60</b> Products
-                      </li>
-                      <li>
-                        <b>4</b> Collections
-                      </li>
-                      <li>
-                        <b>331</b> Influencers
-                      </li>
-                      <li>
-                        <b>1.2K</b> Likes
+                        <b>60</b> Builders
                       </li>
                     </ul>
                     <hr />
-                    <h4 class="title title-margin">About his Work</h4>
-                    <p class="description">
-                      French luxury footwear and fashion. The footwear has
-                      incorporated shiny, red-lacquered soles that have become
-                      his signature.
-                    </p>
+                    <h4 class="title title-margin">About our Work</h4>
+                    <p
+                      class="description"
+                    >We will identify San Franciscans who are eligible recipients of our donations and bring candidates through a vetting process.</p>
                     <hr />
                     <h4 class="title title-margin">Focus</h4>
-                    <badge type="primary">Footwear</badge>
-                    <badge type="rose">Luxury</badge>
+                    <badge type="primary">Housing</badge>
+                    <badge type="rose">Job Security</badge>
                   </div>
                 </div>
               </template>

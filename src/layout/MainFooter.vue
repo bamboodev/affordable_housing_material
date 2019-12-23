@@ -13,13 +13,13 @@
             <h5>About</h5>
             <ul class="links-vertical">
               <li>
-                <a href="javascript:void(0)">Blog</a>
+                <a href="javascript:void(0)">News</a>
               </li>
               <li>
                 <a href="javascript:void(0)">About Us</a>
               </li>
               <li>
-                <a href="javascript:void(0)">Presentation</a>
+                <a href="javascript:void(0)">Press Kit</a>
               </li>
               <li>
                 <a href="javascript:void(0)">Contact Us</a>
@@ -27,22 +27,22 @@
             </ul>
           </div>
           <div class="md-layout-item md-medium-size-15 md-large-size-15 md-small-size-100">
-            <h5>Market</h5>
+            <h5>Community</h5>
             <ul class="links-vertical">
               <li>
-                <a href="javascript:void(0)">Sales FAQ</a>
+                <a href="javascript:void(0)">Survey FAQ</a>
               </li>
               <li>
-                <a href="javascript:void(0)">How to Register</a>
+                <a href="javascript:void(0)">How to Donate</a>
               </li>
               <li>
-                <a href="javascript:void(0)">Sell Goods</a>
+                <a href="javascript:void(0)">Need assistance?</a>
               </li>
               <li>
-                <a href="javascript:void(0)">Receive Payment</a>
+                <a href="javascript:void(0)">Our Partners</a>
               </li>
               <li>
-                <a href="javascript:void(0)">Transactions Issues</a>
+                <a href="javascript:void(0)">Next Steps</a>
               </li>
             </ul>
           </div>
@@ -51,22 +51,19 @@
             <h5>Legal</h5>
             <ul class="links-vertical">
               <li>
-                <a href="javascript:void(0)">Transactions FAQ</a>
+                <a href="javascript:void(0)">Donation FAQ</a>
               </li>
               <li>
                 <a href="#pablo">Terms &amp; Conditions</a>
               </li>
               <li>
-                <a href="javascript:void(0)">Licenses</a>
+                <a href="javascript:void(0)">Privacy Policy</a>
               </li>
             </ul>
           </div>
           <div class="md-layout-item md-medium-size-25 md-large-size-25 md-small-size-100">
             <h5>Subscribe to Newsletter</h5>
-            <p>
-              Join our newsletter and get news in your inbox every week! We
-              hate spam too, so no worries about this.
-            </p>
+            <p>Join our newsletter and receive updates in your inbox every week. Your info will not be sold or shared with anyone else, and you may unsubscribe at anytime.</p>
             <form class="form-newsletter" action method>
               <div class="md-layout">
                 <div class="md-layout-item md-large-size-66 medium-size-50">

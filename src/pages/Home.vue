@@ -87,114 +87,11 @@
         </div>
       </div>
 
-      <banner title="My good boy banner" :background="bannerImages.Banner1" colorstyle="lite"></banner>
-
-      <!-- <parallax
-        class="page-header header-filter header-small"
-        parallax-active="true"
-        :style="headerStyle"
-      >-->
-      <!-- <div class="container page-header header-filter" :style="header('3')">
-        <div class="md-layout">
-          <div class="md-layout-item md-size-66 md-small-size-100 mx-auto text-center">
-            <h1 class="title">Let's get started</h1>
-            <h4>
-              To get started, you will need to choose a plan for your needs. You
-              can opt in for the monthly of annual options and go with one fo
-              the three listed below.
-            </h4>
-          </div>
-        </div>
-      </div>-->
-      <!-- </parallax> -->
-
-      <!-- <div class="section section-projects-3 section-dark">
-        <div class="container">
-          <div class="md-layout">
-            <div
-              class="md-layout-item md-size-66 md-small-size-100 justify-content-center mx-auto text-center"
-            >
-              <h6 class="text-muted">Our work</h6>
-              <h2 class="title">Some of Our Awesome Products - 3</h2>
-            </div>
-          </div>
-          <div class="md-layout">
-            <div class="md-layout-item md-size-40 md-small-size-100 ml-auto">
-              <profile-card
-                card-plain
-                :shadow-normal="false"
-                :no-colored-shadow="true"
-                :card-image="cardProject3.cardProject1"
-              >
-                <template slot="cardContent">
-                  <h6 class="card-category text-muted">Web Design</h6>
-                  <h4 class="card-title">Famous Website Redesign</h4>
-
-                  <p class="card-description">
-                    Don't be scared of the truth because we need to restart the
-                    human foundation in truth.
-                  </p>
-                </template>
-              </profile-card>
-            </div>
-            <div class="md-layout-item md-size-40 md-small-size-100 mr-auto">
-              <profile-card
-                card-plain
-                :shadow-normal="false"
-                :no-colored-shadow="true"
-                :card-image="cardProject3.cardProject2"
-              >
-                <template slot="cardContent">
-                  <h6 class="card-category text-muted">Productivity Tools</h6>
-                  <h4 class="card-title">Beautiful Desktop for Designers</h4>
-
-                  <p class="card-description">
-                    Don't be scared of the truth because we need to restart the
-                    human foundation in truth.
-                  </p>
-                </template>
-              </profile-card>
-            </div>
-            <div class="md-layout-item md-size-40 md-small-size-100 ml-auto">
-              <profile-card
-                card-plain
-                :shadow-normal="false"
-                :no-colored-shadow="true"
-                :card-image="cardProject3.cardProject3"
-              >
-                <template slot="cardContent">
-                  <h6 class="card-category text-muted">Android App</h6>
-                  <h4 class="card-title">Analytics for Android</h4>
-
-                  <p class="card-description">
-                    Don't be scared of the truth because we need to restart the
-                    human foundation in truth.
-                  </p>
-                </template>
-              </profile-card>
-            </div>
-            <div class="md-layout-item md-size-40 md-small-size-100 mr-auto">
-              <profile-card
-                card-plain
-                :shadow-normal="false"
-                :no-colored-shadow="true"
-                :card-image="cardProject3.cardProject4"
-              >
-                <template slot="cardContent">
-                  <h6 class="card-category text-muted">Website</h6>
-                  <h4 class="card-title">Behance Redesign</h4>
-
-                  <p class="card-description">
-                    Don't be scared of the truth because we need to restart the
-                    human foundation in truth.
-                  </p>
-                </template>
-              </profile-card>
-            </div>
-          </div>
-        </div>
-      </div>-->
-      <!-- </div> -->
+      <banner
+        title="Working Together for Meaningful Change"
+        :background="bannerImages.Banner1"
+        colorstyle="lite"
+      ></banner>
     </div>
   </div>
 </template>
@@ -221,11 +118,11 @@ export default {
       companyPassword: null,
       toggledClass: false,
       headerImages: {
-        Image1: require("@/assets/img/bg12.jpg"),
-        Image2: require("@/assets/img/examples/office2.jpg"),
-        Image3: require("@/assets/img/dg1.jpg"),
-        Image4: require("@/assets/img/dg2.jpg"),
-        Image5: require("@/assets/img/dg3.jpg")
+        // Image1: require("@/assets/img/bg12.jpg"),
+        Image2: require("@/assets/img/san-francisco.jpg")
+        // Image3: require("@/assets/img/dg1.jpg"),
+        // Image4: require("@/assets/img/dg2.jpg"),
+        // Image5: require("@/assets/img/dg3.jpg")
       },
       cardBlog: {
         cardBlog1: require("@/assets/img/examples/blog6.jpg"),
@@ -233,8 +130,8 @@ export default {
         cardBlog3: require("@/assets/img/examples/blog7.jpg")
       },
       cardBlogPost: {
-        cardBlogPost1: require("@/assets/img/examples/card-blog4.jpg"),
-        cardBlogPost2: require("@/assets/img/office2.jpg")
+        cardBlogPost1: require("@/assets/img/san-francisco.jpg"),
+        cardBlogPost2: require("@/assets/img/san-francisco-housing.jpg")
       },
       cardBlogPost2: {
         cardBlogPost1: require("@/assets/img/examples/blog5.jpg"),
@@ -255,7 +152,7 @@ export default {
         cardProject4: require("@/assets/img/examples/card-project4.jpg")
       },
       bannerImages: {
-        Banner1: require("@/assets/img/bg12.jpg")
+        Banner1: require("@/assets/img/housing-crisis.jpg")
       }
     };
   },

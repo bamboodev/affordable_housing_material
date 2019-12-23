@@ -40,9 +40,9 @@
                 <h4 slot="title" class="info-title">Find us at the office</h4>
                 <div slot="content" class="description">
                   <p>
-                    Bld Mihail Kogalniceanu, nr. 8,
-                    <br />7652 Bucharest,
-                    <br />Romania
+                    123 Main St,
+                    <br />San Francisco,
+                    <br />California
                   </p>
                 </div>
               </info-areas>
@@ -50,8 +50,8 @@
                 <h4 slot="title" class="info-title">Give us a ring</h4>
                 <div slot="content" class="description">
                   <p>
-                    Michael Jordan
-                    <br />+40 762 321 762
+                    Customer Service
+                    <br />+1 888 555 1212
                     <br />Mon - Fri, 8:00-22:00
                   </p>
                 </div>
@@ -60,10 +60,10 @@
                 <h4 slot="title" class="info-title">Legal Information</h4>
                 <div slot="content" class="description">
                   <p>
-                    Creative Tim Ltd.
-                    <br />VAT · EN2341241
-                    <br />IBAN · EN8732ENGB2300099123
-                    <br />Bank · Great Britain Bank
+                    Affordability Project
+                    <br />123 Main St,
+                    <br />San Francisco,
+                    <br />California
                   </p>
                 </div>
               </info-areas>

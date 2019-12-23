@@ -292,6 +292,13 @@ export default {
     scrollListener() {
       resizeThrottler(this.handleScroll);
     }
+  },
+  watch: {
+    $route() {
+      // close mobile menu
+      this.toggleNavbarMobile();
+      this.toggledClass = false;
+    }
   }
 };
 </script>

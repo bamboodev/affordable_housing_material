@@ -25,7 +25,7 @@ export default {
     },
     background: {
       type: String,
-      default: "@/assets/img/bg12.jpg"
+      default: "@/assets/img/housing-crisis.jpg"
     },
     colorstyle: {
       type: String
