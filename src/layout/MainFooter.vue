@@ -69,9 +69,7 @@
                   </md-field>
                 </div>
                 <div class="md-layout-item md-large-size-33 medium-size-50">
-                  <md-button class="md-just-icon md-block">
-                    <md-icon>mail</md-icon>
-                  </md-button>
+                  <md-button class="md-block">Send</md-button>
                 </div>
               </div>
             </form>

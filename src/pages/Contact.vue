@@ -35,7 +35,7 @@
               </form>
             </div>
             <div class="md-layout-item md-size-33 md-small-size-100 ml-auto">
-              <info-areas class="pt-0" info-horizontal icon-color="primary" icon="pin_drop">
+              <info-areas class="pt-0" info-horizontal>
                 <h4 slot="title" class="info-title">Find us at the office</h4>
                 <div slot="content" class="description">
                   <p>
@@ -45,7 +45,7 @@
                   </p>
                 </div>
               </info-areas>
-              <info-areas class="pt-0" info-horizontal icon-color="primary" icon="phone">
+              <info-areas class="pt-0" info-horizontal>
                 <h4 slot="title" class="info-title">Give us a ring</h4>
                 <div slot="content" class="description">
                   <p>
@@ -55,7 +55,7 @@
                   </p>
                 </div>
               </info-areas>
-              <info-areas class="pt-0" info-horizontal icon-color="primary" icon="business_center">
+              <info-areas class="pt-0" info-horizontal>
                 <h4 slot="title" class="info-title">Legal Information</h4>
                 <div slot="content" class="description">
                   <p>
