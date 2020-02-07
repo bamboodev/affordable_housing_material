@@ -312,6 +312,10 @@ export default {
   },
   watch: {
     $route() {
+      if (this.$route.name === "home") {
+        // this.toggledClass = false;
+        this.toggleNavbarMobile();
+      }
       // close mobile menu
       this.toggleNavbarMobile();
       this.toggledClass = false;

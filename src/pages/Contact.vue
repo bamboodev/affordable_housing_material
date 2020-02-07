@@ -94,8 +94,11 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-.mt-3 {
-  margin-top: 1.5rem;
+<style lang="scss" >
+// .mt-3 {
+//   margin-top: 1.5rem;
+// }
+.info-horizontal .icon {
+  display: none;
 }
 </style>

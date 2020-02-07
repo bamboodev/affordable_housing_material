@@ -98,4 +98,10 @@ export default {
   }
 };
 </script>
-<style></style>
+<style>
+@media all and (max-width: 960px) {
+  .footer-big .content {
+    text-align: center;
+  }
+}
+</style>

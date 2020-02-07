@@ -213,6 +213,12 @@ export default {
 // }
 
 @media all and (max-width: 960px) {
+  .home h1.title {
+    font-size: 22px;
+  }
+  .home .page-header img {
+    margin-top: 240px;
+  }
   .md-card-form-horizontal .md-layout-item {
     margin-top: 1.5rem;
   }
