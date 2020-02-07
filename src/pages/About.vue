@@ -9,7 +9,7 @@
         <div class="md-layout">
           <div class="md-layout-item md-size-66 md-small-size-100 mx-auto text-center">
             <h1 class="title">About Us</h1>
-            <h4>We will identify San Franciscans who are eligible recipients of our donations and bring candidates through a vetting process</h4>
+            <h4>Our mission is simple: To build new 100% middle-income affordable buildings and to subsidize existing middle income leases.</h4>
           </div>
         </div>
       </div>
@@ -21,12 +21,12 @@
             <div class="md-layout-item md-size-66 md-small-size-100 mx-auto">
               <h5
                 class="description"
-              >Since 2009, one new housing unit has been created for every 8.5 new jobs created. San Francisco is in the midst of the worst housing crisis in its history. Created by the rapid influx of new business and wealth, record spikes in the cost of San Francisco rents have caused an incredible shortage of housing amongst the City’s most economically vulnerable.</h5>
+              >Our organization is run by individuals with deep experience and understanding of San Francisco development, land entitlement, real estate financing and construction. We leverage our collective experience and network to build working class housing in San Francisco.</h5>
             </div>
           </div>
         </div>
       </div>
-      <div class="section section-about-team section-team-1 pb-0">
+      <!-- <div class="section section-about-team section-team-1 pb-0">
         <div class="container">
           <div class="md-layout">
             <div class="md-layout-item md-size-66 md-small-size-100 mx-auto text-center">
@@ -103,8 +103,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="section section-about-services section-features-2">
+      </div>-->
+      <!-- <div class="section section-about-services section-features-2">
         <div class="container">
           <div class="md-layout">
             <div class="md-layout-item md-size-66 md-small-size-100 mx-auto text-center">
@@ -144,8 +144,8 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="section section-about-office pb-0">
+      </div>-->
+      <!-- <div class="section section-about-office pb-0">
         <div class="container">
           <div class="md-layout text-center">
             <div class="md-layout-item md-size-66 md-small-size-100 mx-auto">
@@ -173,15 +173,15 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
       <div class="section section-about-office">
         <div class="container">
           <div class="md-layout text-center">
             <div class="md-layout-item md-size-66 md-small-size-100 mx-auto">
-              <h2 class="title">Please, join our team</h2>
+              <h2 class="title">We can't do it alone.</h2>
               <h4
                 class="description"
-              >We will identify San Franciscans who are eligible recipients of our donations and bring candidates through a vetting process. We will identify San Franciscans who are eligible recipients of our donations and bring candidates through a vetting process.</h4>
+              >Please, join our team. Together, we will identify San Franciscans who are eligible recipients of our donations and bring candidates through a vetting process.</h4>
             </div>
             <div class="md-layout-item md-size-66 md-small-size-100 mx-auto">
               <div class="md-layout">
@@ -208,7 +208,7 @@
                   </md-field>
                 </div>
                 <div class="md-layout-item md-size-100 text-center">
-                  <md-button href="javascript:void(0)" class="md-primary md-round mt-2">Let's Talk</md-button>
+                  <md-button href="javascript:void(0)" class="md-primary md-round mt-2">Join Us</md-button>
                 </div>
               </div>
             </div>
@@ -220,13 +220,13 @@
 </template>
 
 <script>
-import { ProfileCard, InfoAreas } from "@/components";
+// import { ProfileCard } from "@/components";
 import Mixins from "@/plugins/basicMixins";
 
 export default {
   components: {
-    ProfileCard,
-    InfoAreas
+    // ProfileCard
+    // InfoAreas
   },
   mixins: [Mixins.HeaderImage],
   bodyClass: "about-us",
@@ -235,7 +235,7 @@ export default {
       speciality: "",
       name: null,
       email: null,
-      image: require("@/assets/img/about-us.jpg"),
+      image: require("@/assets/img/city.jpg"),
       aboutTeam: {
         aboutTeam1: require("@/assets/img/staff/joey.jpg"),
         aboutTeam2: require("@/assets/img/staff/joe.jpg"),

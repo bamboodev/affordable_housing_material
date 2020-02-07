@@ -8,8 +8,8 @@
       <div class="container">
         <div class="md-layout">
           <div class="md-layout-item md-size-66 md-small-size-100 mx-auto text-center">
-            <h1 class="title">Donate</h1>
-            <h4>If you believe that the Bay Area's working class are the life blood of our society and would like to help our cause to construct and subsidize middle income housing, please donate.</h4>
+            <h1 class="title">Corporate Partnerships</h1>
+            <h4>Our mission is simple: To build new 100% middle-income affordable buildings and to subsidize existing middle income leases.</h4>
           </div>
         </div>
       </div>
@@ -21,7 +21,7 @@
             <div class="md-layout-item md-size-66 md-small-size-100 mx-auto">
               <h5
                 class="description"
-              >Our organization is run by individuals with deep experience and understanding of San Francisco development, land entitlement, real estate financing and construction. We leverage our collective experience and network to build working class housing in San Francisco.</h5>
+              >If you are a corporation who is interested in helping our cause, we would love to partner! Our organization is run by individuals with deep experience and understanding of San Francisco development, land entitlement, real estate financing and construction. We leverage our collective experience and network to build working class housing in San Francisco.</h5>
             </div>
           </div>
         </div>
@@ -32,26 +32,32 @@
           <div class="md-layout text-center">
             <div class="md-layout-item md-size-66 md-small-size-100 mx-auto">
               <div class="md-layout">
-                <div class="md-layout-item md-size-33 md-small-size-100">
+                <div class="md-layout-item md-size-25 md-small-size-100">
                   <md-field>
                     <label>Your name</label>
                     <md-input v-model="name" />
                   </md-field>
                 </div>
-                <div class="md-layout-item md-size-33 md-small-size-100">
+                <div class="md-layout-item md-size-25 md-small-size-100">
                   <md-field>
                     <label>Your email</label>
                     <md-input v-model="email" />
                   </md-field>
                 </div>
-                <div class="md-layout-item md-size-33 md-small-size-100">
+                <div class="md-layout-item md-size-25 md-small-size-100">
                   <md-field>
-                    <label>Amount</label>
-                    <md-input v-model="amount" />
+                    <label>Phone</label>
+                    <md-input v-model="phone" />
+                  </md-field>
+                </div>
+                <div class="md-layout-item md-size-25 md-small-size-100">
+                  <md-field>
+                    <label>Company</label>
+                    <md-input v-model="company" />
                   </md-field>
                 </div>
                 <div class="md-layout-item md-size-100 text-center">
-                  <md-button href="javascript:void(0)" class="md-primary md-round mt-2">Donate</md-button>
+                  <md-button href="javascript:void(0)" class="md-primary md-round mt-2">Join Us</md-button>
                 </div>
               </div>
             </div>
@@ -71,10 +77,11 @@ export default {
   bodyClass: "about-us",
   data() {
     return {
+      company: null,
+      phone: null,
       name: null,
       email: null,
-      amount: null,
-      image: require("@/assets/img/donate-bg.jpg")
+      image: require("@/assets/img/corporate.jpg")
     };
   }
 };

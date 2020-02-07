@@ -19,9 +19,6 @@
                 <a href="javascript:void(0)">About Us</a>
               </li>
               <li>
-                <a href="javascript:void(0)">Press Kit</a>
-              </li>
-              <li>
                 <a href="javascript:void(0)">Contact Us</a>
               </li>
             </ul>
@@ -30,7 +27,7 @@
             <h5>Community</h5>
             <ul class="links-vertical">
               <li>
-                <a href="javascript:void(0)">Survey FAQ</a>
+                <a href="javascript:void(0)">Tenants FAQ</a>
               </li>
               <li>
                 <a href="javascript:void(0)">How to Donate</a>
@@ -63,7 +60,7 @@
           </div>
           <div class="md-layout-item md-medium-size-25 md-large-size-25 md-small-size-100">
             <h5>Subscribe to Newsletter</h5>
-            <p>Join our newsletter and receive updates in your inbox every week. Your info will not be sold or shared with anyone else, and you may unsubscribe at anytime.</p>
+            <p>Join our newsletter and receive occasional updates via email. Your info will not be sold or shared with anyone else, and you may unsubscribe at anytime.</p>
             <form class="form-newsletter" action method>
               <div class="md-layout">
                 <div class="md-layout-item md-large-size-66 medium-size-50">

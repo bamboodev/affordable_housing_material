@@ -56,6 +56,23 @@
                   class="md-list-item-router md-list-item-container md-button-clean dropdown"
                 >
                   <div class="md-list-item-content">
+                    <md-button
+                      slot="title"
+                      to="/directors"
+                      class="md-button md-button-link md-white md-simple"
+                    >
+                      <p>Management</p>
+                    </md-button>
+                  </div>
+                </a>
+              </li>
+
+              <!-- <li class="md-list-item">
+                <a
+                  href="javascript:void(0)"
+                  class="md-list-item-router md-list-item-container md-button-clean dropdown"
+                >
+                  <div class="md-list-item-content">
                     <drop-down direction="down">
                       <md-button
                         slot="title"
@@ -75,9 +92,9 @@
                     </drop-down>
                   </div>
                 </a>
-              </li>
+              </li>-->
 
-              <li class="md-list-item">
+              <!-- <li class="md-list-item">
                 <a
                   href="javascript:void(0)"
                   class="md-list-item-router md-list-item-container md-button-clean dropdown"
@@ -105,9 +122,9 @@
                     </drop-down>
                   </div>
                 </a>
-              </li>
+              </li>-->
 
-              <li class="md-list-item">
+              <!-- <li class="md-list-item">
                 <a
                   href="javascript:void(0)"
                   class="md-list-item-router md-list-item-container md-button-clean dropdown"
@@ -122,7 +139,7 @@
                     </md-button>
                   </div>
                 </a>
-              </li>
+              </li>-->
 
               <li class="md-list-item">
                 <a
@@ -141,7 +158,7 @@
                 </a>
               </li>
 
-              <li class="md-list-item">
+              <!-- <li class="md-list-item">
                 <a
                   href="javascript:void(0)"
                   class="md-list-item-router md-list-item-container md-button-clean"
@@ -152,7 +169,7 @@
                     </md-button>
                   </div>
                 </a>
-              </li>
+              </li>-->
             </md-list>
           </div>
         </div>
@@ -269,7 +286,7 @@ export default {
       }
     },
     toggleNavbarMobile() {
-      console.log("navbar toggled");
+      // console.log("navbar toggled");
       this.NavbarStore.showNavbar = !this.NavbarStore.showNavbar;
       this.toggledClass = !this.toggledClass;
       this.bodyClick();

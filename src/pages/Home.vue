@@ -8,10 +8,20 @@
               <div
                 class="md-layout-item md-size-66 md-small-size-100 md-xlarge-size-80 mx-auto text-center"
               >
+                <img
+                  src="@/assets/img/logo-white.png"
+                  alt="Affordability Project Logo"
+                  width="250"
+                  height="auto"
+                  class="aos-init aos-animate"
+                  data-aos="fade-up"
+                  data-aos-easing="mk-easing"
+                  data-aos-duration="750"
+                />
                 <h1
                   class="title"
-                >A working class family needs $83,000 more than the national average in order to afford to live in San Francisco.</h1>
-                <h4>The monthly average cost of an apartment in San Francisco consumes over 35% of the before tax local median household income.</h4>
+                >The San Francisco Bay Area has produced only 6% of the middle income housing inventory that is required to support its population.</h1>
+                <h4>Compared to the national average, a working class family needs to make an additional $83,000 per year to be able to live in San Francisco.</h4>
               </div>
             </div>
           </div>
@@ -33,13 +43,11 @@
               >
                 <template slot="cardContent">
                   <h3 class="card-title">
-                    <a href="javascript:void(0)">Shortage of Housing</a>
+                    <a href="javascript:void(0)">Help Our Cause - Donate!</a>
                   </h3>
                   <p class="card-description">
-                    San Francisco is in the midst of the worst housing crisis in its history. Created by the rapid influx of new business and wealth, record spikes in the cost of San Francisco rents have caused an incredible shortage of housing amongst the City’s most economically vulnerable. Despite well intentioned local legislation, government leaders are consistently unable to reach their goals for housing production. As a result, living in San Francisco becomes increasingly more difficult by the year for San Francisco’s middle and low income households
-                    <a
-                      href="javascript:void(0)"
-                    >Read More</a>
+                    If you believe that the Bay Area's working class are the life blood of our society and would like to help our cause to construct and subsidize middle income housing,
+                    <router-link to="/donate">please donate</router-link>.
                   </p>
                 </template>
               </blog-card>
@@ -53,13 +61,11 @@
               >
                 <template slot="cardContent">
                   <h3 class="card-title">
-                    <a href="javascript:void(0)">The Worst Housing Crisis In Our History</a>
+                    <a href="javascript:void(0)">Need a Rent Break? Apply Here</a>
                   </h3>
                   <p class="card-description">
-                    San Francisco is in the midst of the worst housing crisis in its history. Created by the rapid influx of new business and wealth, record spikes in the cost of San Francisco rents have caused an incredible shortage of housing amongst the City’s most economically vulnerable. Despite well intentioned local legislation, government leaders are consistently unable to reach their goals for housing production.
-                    <a
-                      href="javascript:void(0)"
-                    >Read More</a>
+                    If you are a middle income individual or family who could use a rent break and have interest in living in one of our projects,
+                    <router-link to="/tenants">we would love to hear from you</router-link>.
                   </p>
                 </template>
               </blog-card>
@@ -68,17 +74,15 @@
                 type="horizontal"
                 :shadow-normal="false"
                 :no-colored-shadow="false"
-                :card-image="cardBlogPost.cardBlogPost1"
+                :card-image="cardBlogPost.cardBlogPost3"
               >
                 <template slot="cardContent">
                   <h3 class="card-title">
-                    <a href="javascript:void(0)">Shortage of Housing</a>
+                    <a href="javascript:void(0)">Corporate Involvement</a>
                   </h3>
                   <p class="card-description">
-                    San Francisco is in the midst of the worst housing crisis in its history. Created by the rapid influx of new business and wealth, record spikes in the cost of San Francisco rents have caused an incredible shortage of housing amongst the City’s most economically vulnerable. Despite well intentioned local legislation, government leaders are consistently unable to reach their goals for housing production. As a result, living in San Francisco becomes increasingly more difficult by the year for San Francisco’s middle and low income households
-                    <a
-                      href="javascript:void(0)"
-                    >Read More</a>
+                    If you are a corporation who is interested in helping our cause,
+                    <router-link to="/corporations">we would love to partner</router-link>!
                   </p>
                 </template>
               </blog-card>
@@ -130,8 +134,9 @@ export default {
         cardBlog3: require("@/assets/img/examples/blog7.jpg")
       },
       cardBlogPost: {
-        cardBlogPost1: require("@/assets/img/san-francisco.jpg"),
-        cardBlogPost2: require("@/assets/img/san-francisco-housing.jpg")
+        cardBlogPost1: require("@/assets/img/donate.jpg"),
+        cardBlogPost2: require("@/assets/img/teacher.jpg"),
+        cardBlogPost3: require("@/assets/img/san-francisco-housing.jpg")
       },
       cardBlogPost2: {
         cardBlogPost1: require("@/assets/img/examples/blog5.jpg"),
@@ -167,6 +172,13 @@ export default {
 </script>
 
 <style lang="scss">
+.home h1.title {
+  font-size: 32px;
+}
+.home .page-header h4 {
+  padding-bottom: 200px;
+}
+
 .buttons {
   display: flex;
   align-items: center;

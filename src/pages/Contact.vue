@@ -8,8 +8,7 @@
             <div class="md-layout-item md-size-50 md-small-size-100 ml-auto">
               <h2 class="title mt-0">Send us a message</h2>
               <p class="description">
-                You can contact us with anything related to our Products. We'll
-                get in touch with you as soon as possible.
+                Questions or comments? Please don't hesitate to get in touch.
                 <br />
                 <br />
               </p>
