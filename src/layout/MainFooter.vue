@@ -101,7 +101,7 @@ export default {
 <style>
 @media all and (max-width: 960px) {
   .footer-big .content {
-    text-align: center;
+    text-align: center !important;
   }
 }
 </style>
