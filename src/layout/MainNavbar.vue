@@ -1,22 +1,20 @@
 <template>
-  <md-toolbar
-    id="toolbar"
-    md-elevation="0"
-    class="md-fixed"
-    :class="{
-      [`md-${type}`]: !navbarTransparent,
-      [extraNavClasses]: navbarTransparent,
-      'md-transparent': navbarTransparent
-    }"
-    :color-on-scroll="colorOnScroll"
-  >
+  <md-toolbar id="toolbar" md-elevation="0" :class="navClass" :color-on-scroll="colorOnScroll">
     <div class="md-toolbar-row md-collapse-lateral">
       <div class="md-toolbar-section-start">
         <!-- <h3 class="md-title">{{ brand }}</h3> -->
         <!-- <md-button slot="title" to="/" class="md-button md-button-link md-white md-simple">
           <h3 class="md-title">{{ brand }}</h3>
         </md-button>-->
-        <router-link to="/" class="md-title">{{ brand }}</router-link>
+        <!-- <router-link to="/" class="md-title">{{ brand }}</router-link> -->
+        <router-link to="/" class="md-title">
+          <img
+            src="@/assets/img/logo-white.png"
+            alt="Affordability Project Logo"
+            width="250"
+            height="auto"
+          />
+        </router-link>
       </div>
       <div class="md-toolbar-section-end">
         <md-button
@@ -67,80 +65,6 @@
                 </a>
               </li>
 
-              <!-- <li class="md-list-item">
-                <a
-                  href="javascript:void(0)"
-                  class="md-list-item-router md-list-item-container md-button-clean dropdown"
-                >
-                  <div class="md-list-item-content">
-                    <drop-down direction="down">
-                      <md-button
-                        slot="title"
-                        class="md-button md-button-link md-white md-simple dropdown-toggle"
-                        data-toggle="dropdown"
-                      >
-                        <p>Management</p>
-                      </md-button>
-                      <ul class="dropdown-menu dropdown-with-icons">
-                        <li>
-                          <router-link to="/directors">Board of Directors</router-link>
-                        </li>
-                        <li>
-                          <router-link to="/development">Development Team</router-link>
-                        </li>
-                      </ul>
-                    </drop-down>
-                  </div>
-                </a>
-              </li>-->
-
-              <!-- <li class="md-list-item">
-                <a
-                  href="javascript:void(0)"
-                  class="md-list-item-router md-list-item-container md-button-clean dropdown"
-                >
-                  <div class="md-list-item-content">
-                    <drop-down direction="down">
-                      <md-button
-                        slot="title"
-                        class="md-button md-button-link md-white md-simple dropdown-toggle"
-                        data-toggle="dropdown"
-                      >
-                        <p>Surveys</p>
-                      </md-button>
-                      <ul class="dropdown-menu dropdown-with-icons">
-                        <li>
-                          <router-link to="/survey">Tenants</router-link>
-                        </li>
-                        <li>
-                          <router-link to="/survey">Landlords</router-link>
-                        </li>
-                        <li>
-                          <router-link to="/survey">Developers</router-link>
-                        </li>
-                      </ul>
-                    </drop-down>
-                  </div>
-                </a>
-              </li>-->
-
-              <!-- <li class="md-list-item">
-                <a
-                  href="javascript:void(0)"
-                  class="md-list-item-router md-list-item-container md-button-clean dropdown"
-                >
-                  <div class="md-list-item-content">
-                    <md-button
-                      slot="title"
-                      to="/press"
-                      class="md-button md-button-link md-white md-simple"
-                    >
-                      <p>Press</p>
-                    </md-button>
-                  </div>
-                </a>
-              </li>-->
-
               <li class="md-list-item">
                 <a
                   href="javascript:void(0)"
@@ -157,19 +81,6 @@
                   </div>
                 </a>
               </li>
-
-              <!-- <li class="md-list-item">
-                <a
-                  href="javascript:void(0)"
-                  class="md-list-item-router md-list-item-container md-button-clean"
-                >
-                  <div class="md-list-item-content">
-                    <md-button class="md-success md-round" to="/donate">
-                      <md-icon>favorite</md-icon>Donate
-                    </md-button>
-                  </div>
-                </a>
-              </li>-->
             </md-list>
           </div>
         </div>
@@ -220,41 +131,15 @@ export default {
     },
     navbarTransparent: {
       type: Boolean,
-      default: false
+      default: true
     }
   },
   data() {
     return {
-      docs_link:
-        "https://demos.creative-tim.com/vue-material-kit-pro/documentation/",
       extraNavClasses: "",
       toggledClass: false,
       brand: "Affordability Project",
-      linksSections: [
-        { name: "janky headers", icon: "dns" },
-        { name: "features", icon: "build" },
-        { name: "blogs", icon: "list" },
-        { name: "teams", icon: "people" },
-        { name: "projects", icon: "assignment" },
-        { name: "pricing", icon: "monetization_on" },
-        { name: "testimonials", icon: "chat" },
-        { name: "contacts", icon: "call" }
-      ],
-      linksExamples: [
-        { name: "About Us", href: "about-us" },
-        { name: "Blog Post", href: "blog-post" },
-        { name: "Blog Posts", href: "blog-posts" },
-        { name: "Contact Us", href: "contact-us" },
-        { name: "Landing Page", href: "landing-page" },
-        { name: "Login Page", href: "login-page" },
-        { name: "Pricing Page", href: "pricing-page" },
-        { name: "Shopping Cart", href: "shopping-cart" },
-        { name: "Ecommerce Page", href: "ecommerce-page" },
-        { name: "Product Page", href: "product-page" },
-        { name: "Profile Page", href: "profile-page" },
-        { name: "Signup Page", href: "signup-page" },
-        { name: "Error Page", href: "error-page" }
-      ]
+      navClass: "md-transparent"
     };
   },
   computed: {
@@ -319,7 +204,40 @@ export default {
       // close mobile menu
       this.toggleNavbarMobile();
       this.toggledClass = false;
+      // dark nav on contact
+      if (this.$route.name === "contact") {
+        this.navClass = "md-default";
+      } else {
+        this.navClass = "md-transparent";
+      }
     }
   }
 };
 </script>
+
+
+<style lang="scss">
+.wrapper {
+  margin-top: -204px;
+}
+.md-toolbar {
+  border-radius: 0px !important;
+  padding-top: 25px !important;
+}
+
+.md-toolbar .md-title {
+  height: auto !important;
+}
+
+@media all and (max-width: 960px) {
+  .wrapper {
+    margin-top: -148px;
+  }
+  .page-header .container:first-of-type {
+    margin-top: 130px;
+  }
+  .main {
+    margin-top: -20px !important;
+  }
+}
+</style>

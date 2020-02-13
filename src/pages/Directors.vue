@@ -220,7 +220,7 @@
         </div>
       </div>
 
-      <div class="section section-about-office">
+      <!-- <div class="section section-about-office">
         <div class="container">
           <div class="md-layout text-center">
             <div class="md-layout-item md-size-66 md-small-size-100 mx-auto">
@@ -260,7 +260,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
     </div>
   </div>
 </template>
