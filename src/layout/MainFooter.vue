@@ -3,13 +3,13 @@
     <div class="container">
       <div class="content">
         <div class="md-layout">
-          <div class="md-layout-item md-medium-size-25 md-large-size-25 md-small-size-100">
+          <!-- <div class="md-layout-item md-medium-size-25 md-large-size-25 md-small-size-100">
             <a href="javascript:void(0)">
               <h5>Affordability Project</h5>
             </a>
             <p>Raising money to subsidize existing leases/mortgages for eligible residents in San Francisco</p>
-          </div>
-          <div class="md-layout-item md-medium-size-15 md-large-size-15 md-small-size-100">
+          </div>-->
+          <div class="md-layout-item md-medium-size-25 md-large-size-25 md-small-size-100">
             <h5>About</h5>
             <ul class="links-vertical">
               <li>
@@ -23,7 +23,7 @@
               </li>
             </ul>
           </div>
-          <div class="md-layout-item md-medium-size-15 md-large-size-15 md-small-size-100">
+          <div class="md-layout-item md-medium-size-25 md-large-size-25 md-small-size-100">
             <h5>Community</h5>
             <ul class="links-vertical">
               <li>
@@ -44,7 +44,7 @@
             </ul>
           </div>
 
-          <div class="md-layout-item md-medium-size-15 md-large-size-15 md-small-size-100">
+          <div class="md-layout-item md-medium-size-25 md-large-size-25 md-small-size-100">
             <h5>Legal</h5>
             <ul class="links-vertical">
               <li>
@@ -59,8 +59,7 @@
             </ul>
           </div>
           <div class="md-layout-item md-medium-size-25 md-large-size-25 md-small-size-100">
-            <h5>Subscribe to Newsletter</h5>
-            <p>Join our newsletter and receive occasional updates via email. Your info will not be sold or shared with anyone else, and you may unsubscribe at anytime.</p>
+            <h5>Subscribe to our Newsletter</h5>
             <form class="form-newsletter" action method>
               <div class="md-layout">
                 <div class="md-layout-item md-large-size-66 medium-size-50">

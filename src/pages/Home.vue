@@ -28,29 +28,45 @@
       <div class="section section-blogs-1" style="display">
         <div class="container">
           <div class="md-layout">
-            <div class="md-layout-item md-size-33 md-small-size-100">
+            <div class="md-layout-item md-size-25 md-small-size-100">
               <img :src="cardBlogPost.cardBlogPost1" alt />
-              <h3 class="card-title">Help Our Cause - Donate!</h3>
-              <p class="card-description">
+              <h3 class="card-title">
+                <router-link to="/donate">Help Our Cause - Donate!</router-link>
+              </h3>
+              <!-- <p class="card-description">
                 If you believe that the Bay Area's working class are the life blood of our society and would like to help our cause to construct and subsidize middle income housing,
                 <router-link to="/donate">please donate</router-link>.
-              </p>
+              </p>-->
             </div>
-            <div class="md-layout-item md-size-33 md-small-size-100">
+            <div class="md-layout-item md-size-25 md-small-size-100">
               <img :src="cardBlogPost.cardBlogPost2" alt />
-              <h3 class="card-title">Need a Rent Break? Apply Here</h3>
-              <p class="card-description">
+              <h3 class="card-title">
+                <router-link to="/tenants">Need a Rent Break? Apply Here</router-link>
+              </h3>
+              <!-- <p class="card-description">
                 If you are a middle income individual or family who could use a rent break and have interest in living in one of our projects,
                 <router-link to="/tenants">we would love to hear from you</router-link>.
-              </p>
+              </p>-->
             </div>
-            <div class="md-layout-item md-size-33 md-small-size-100">
+            <div class="md-layout-item md-size-25 md-small-size-100">
               <img :src="cardBlogPost.cardBlogPost3" alt />
-              <h3 class="card-title">Corporate Involvement</h3>
-              <p class="card-description">
+              <h3 class="card-title">
+                <router-link to="/corporations">Corporate Involvement</router-link>
+              </h3>
+              <!-- <p class="card-description">
                 If you are a corporation who is interested in helping our cause,
                 <router-link to="/corporations">we would love to partner</router-link>!
-              </p>
+              </p>-->
+            </div>
+            <div class="md-layout-item md-size-25 md-small-size-100">
+              <img :src="cardBlogPost.cardBlogPost4" alt />
+              <h3 class="card-title">
+                <router-link to="/donateHousing">Donate a Housing Unit</router-link>
+              </h3>
+              <!-- <p class="card-description">
+                If you are a corporation who is interested in helping our cause,
+                <router-link to="/corporations">we would love to partner</router-link>!
+              </p>-->
             </div>
           </div>
         </div>
@@ -58,6 +74,7 @@
 
       <banner
         title="Working Together for Meaningful Change"
+        body="Our goal is to bring people and organizations together to solve the middle income housing crisis. We hope other non-profits, government agencies, developers, technology companies, activists and everyday folks will join our fight to build more middle income housing"
         :background="bannerImages.Banner1"
         colorstyle="lite"
       ></banner>
@@ -93,34 +110,35 @@ export default {
         // Image4: require("@/assets/img/dg2.jpg"),
         // Image5: require("@/assets/img/dg3.jpg")
       },
-      cardBlog: {
-        cardBlog1: require("@/assets/img/examples/blog6.jpg"),
-        cardBlog2: require("@/assets/img/examples/blog8.jpg"),
-        cardBlog3: require("@/assets/img/examples/blog7.jpg")
-      },
+      // cardBlog: {
+      //   cardBlog1: require("@/assets/img/examples/blog6.jpg"),
+      //   cardBlog2: require("@/assets/img/examples/blog8.jpg"),
+      //   cardBlog3: require("@/assets/img/examples/blog7.jpg")
+      // },
       cardBlogPost: {
         cardBlogPost1: require("@/assets/img/donate.jpg"),
-        cardBlogPost2: require("@/assets/img/teacher.jpg"),
-        cardBlogPost3: require("@/assets/img/san-francisco-housing.jpg")
+        cardBlogPost2: require("@/assets/img/nurse.jpg"),
+        cardBlogPost3: require("@/assets/img/san-francisco-skyline.jpg"),
+        cardBlogPost4: require("@/assets/img/donateHousing.jpg")
       },
-      cardBlogPost2: {
-        cardBlogPost1: require("@/assets/img/examples/blog5.jpg"),
-        cardBlogPost2: require("@/assets/img/examples/blog7.jpg")
-      },
-      cardBlogPost3: {
-        cardBlogPost1: require("@/assets/img/examples/blog8.jpg")
-      },
-      cardBlogPost4: {
-        cardBlogPost1: require("@/assets/img/bg5.jpg"),
-        cardBlogPost2: require("@/assets/img/examples/blog6.jpg")
-      },
-      image: require("@/assets/img/examples/bg-pricing.jpg"),
-      cardProject3: {
-        cardProject1: require("@/assets/img/examples/card-project1.jpg"),
-        cardProject2: require("@/assets/img/examples/card-project2.jpg"),
-        cardProject3: require("@/assets/img/examples/card-project3.jpg"),
-        cardProject4: require("@/assets/img/examples/card-project4.jpg")
-      },
+      // cardBlogPost2: {
+      //   cardBlogPost1: require("@/assets/img/examples/blog5.jpg"),
+      //   cardBlogPost2: require("@/assets/img/examples/blog7.jpg")
+      // },
+      // cardBlogPost3: {
+      //   cardBlogPost1: require("@/assets/img/examples/blog8.jpg")
+      // },
+      // cardBlogPost4: {
+      //   cardBlogPost1: require("@/assets/img/bg5.jpg"),
+      //   cardBlogPost2: require("@/assets/img/examples/blog6.jpg")
+      // },
+      // image: require("@/assets/img/examples/bg-pricing.jpg"),
+      // cardProject3: {
+      //   cardProject1: require("@/assets/img/examples/card-project1.jpg"),
+      //   cardProject2: require("@/assets/img/examples/card-project2.jpg"),
+      //   cardProject3: require("@/assets/img/examples/card-project3.jpg"),
+      //   cardProject4: require("@/assets/img/examples/card-project4.jpg")
+      // },
       bannerImages: {
         Banner1: require("@/assets/img/housing-crisis.jpg")
       }
@@ -176,6 +194,13 @@ export default {
 .pt-0 {
   padding-top: 0 !important;
 }
+
+// .card-title a {
+//   // text-decoration: underline !important;
+//   &:hover {
+//     // text-decoration: underline !important;
+//   }
+// }
 
 // #greentemp {
 //   background: url(@/assets/img/examples/bg-pricing.jpg);

@@ -11,7 +11,7 @@
           <img
             src="@/assets/img/logo-white.png"
             alt="Affordability Project Logo"
-            width="250"
+            width="150"
             height="auto"
           />
         </router-link>

@@ -6,6 +6,7 @@ import Home from './pages/Home.vue'
 import About from './pages/About.vue'
 import Tenants from './pages/Tenants.vue'
 import Corporations from './pages/Corporations.vue'
+import DonateHousing from './pages/DonateHousing.vue'
 import Directors from './pages/Directors.vue'
 // import Development from './pages/Development.vue'
 // import Survey from './pages/Survey.vue'
@@ -40,6 +41,11 @@ export default new Router({
             path: '/corporations',
             name: 'corporations',
             component: Corporations
+        },
+        {
+            path: '/donateHousing',
+            name: 'donateHousing',
+            component: DonateHousing
         },
         {
             path: '/directors',
