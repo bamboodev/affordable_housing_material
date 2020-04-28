@@ -56,6 +56,23 @@
                   <div class="md-list-item-content">
                     <md-button
                       slot="title"
+                      to="/projects"
+                      class="md-button md-button-link md-white md-simple"
+                    >
+                      <p>Projects</p>
+                    </md-button>
+                  </div>
+                </a>
+              </li>
+
+              <li class="md-list-item">
+                <a
+                  href="javascript:void(0)"
+                  class="md-list-item-router md-list-item-container md-button-clean dropdown"
+                >
+                  <div class="md-list-item-content">
+                    <md-button
+                      slot="title"
                       to="/directors"
                       class="md-button md-button-link md-white md-simple"
                     >

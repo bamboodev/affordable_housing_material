@@ -12,25 +12,25 @@
                 <br />
                 <br />
               </p>
-              <form>
+              <form action="https://formspree.io/xeqrjzwg" method="POST">
                 <md-field>
                   <label>Your Name</label>
-                  <md-input v-model="name" type="text" />
+                  <md-input v-model="name" name="contact" type="text" />
                 </md-field>
                 <md-field>
                   <label>Email Adress</label>
-                  <md-input v-model="email" type="email" />
+                  <md-input v-model="email" name="email" type="email" />
                 </md-field>
                 <md-field>
                   <label>Phone</label>
-                  <md-input v-model="phone" type="number" />
+                  <md-input v-model="phone" name="phone" type="number" />
                 </md-field>
                 <md-field>
                   <label>Your message</label>
-                  <md-textarea v-model="textarea" />
+                  <md-textarea v-model="textarea" name="message" />
                 </md-field>
                 <div class="submit text-center mt-3">
-                  <md-button class="md-primary md-round">Contact Us</md-button>
+                  <md-button class="md-primary md-round" type="submit">Contact Us</md-button>
                 </div>
               </form>
             </div>

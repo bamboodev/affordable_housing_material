@@ -31,29 +31,31 @@
         <div class="container">
           <div class="md-layout text-center">
             <div class="md-layout-item md-size-66 md-small-size-100 mx-auto">
-              <div class="md-layout">
-                <div class="md-layout-item md-size-33 md-small-size-100">
-                  <md-field>
-                    <label>Your name</label>
-                    <md-input v-model="name" />
-                  </md-field>
+              <form action="https://formspree.io/mvowpbpv" method="POST">
+                <div class="md-layout">
+                  <div class="md-layout-item md-size-33 md-small-size-100">
+                    <md-field>
+                      <label>Your name</label>
+                      <md-input v-model="name" name="contact" />
+                    </md-field>
+                  </div>
+                  <div class="md-layout-item md-size-33 md-small-size-100">
+                    <md-field>
+                      <label>Your email</label>
+                      <md-input v-model="email" name="email" />
+                    </md-field>
+                  </div>
+                  <div class="md-layout-item md-size-33 md-small-size-100">
+                    <md-field>
+                      <label>Amount</label>
+                      <md-input v-model="amount" name="amount" />
+                    </md-field>
+                  </div>
+                  <div class="md-layout-item md-size-100 text-center">
+                    <md-button type="submit" class="md-primary md-round mt-2">Donate</md-button>
+                  </div>
                 </div>
-                <div class="md-layout-item md-size-33 md-small-size-100">
-                  <md-field>
-                    <label>Your email</label>
-                    <md-input v-model="email" />
-                  </md-field>
-                </div>
-                <div class="md-layout-item md-size-33 md-small-size-100">
-                  <md-field>
-                    <label>Amount</label>
-                    <md-input v-model="amount" />
-                  </md-field>
-                </div>
-                <div class="md-layout-item md-size-100 text-center">
-                  <md-button href="javascript:void(0)" class="md-primary md-round mt-2">Donate</md-button>
-                </div>
-              </div>
+              </form>
             </div>
           </div>
         </div>
