@@ -20,80 +20,10 @@
       <div class="md-layout-item">-->
 
       <div class="md-layout">
-        <div class="md-layout-item sm-size-100 md-size-50">
-          <div class="director dark">
-            <div class="intro">
-              <img v-bind:src="aboutTeam.aboutTeam1" alt />
-              <h4>Joey Toboni</h4>
-              <h5>Founder, Board President, Interim Executive Director</h5>
-            </div>
-            <div class="bio">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ullam reiciendis porro blanditiis saepe? Nihil cum ab unde harum animi laudantium quos voluptas placeat quo, repellendus error sapiente nesciunt repellat consectetur voluptatem! Atque odio sequi sapiente fuga quo amet at eum quia. Voluptas, officia.</p>
-              <p>Ipsa ex quidem modi consequuntur commodi deleniti, voluptatem aut veniam iusto doloribus architecto fuga nihil ea? Nulla minus adipisci vitae eos beatae illo cumque at, impedit, dolor voluptate rerum a ut est cupiditate vel saepe similique expedita iusto id amet laboriosam sapiente voluptates quae. Quod rem dicta doloremque magnam, consequuntur asperiores eveniet officiis ut natus ullam!</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="md-layout-item sm-size-100 md-size-50">
-          <div class="director light">
-            <div class="intro">
-              <img v-bind:src="aboutTeam.aboutTeam1" alt />
-              <h4>Joey Toboni</h4>
-              <h5>Founder, Board President, Interim Executive Director</h5>
-            </div>
-            <div class="bio">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ullam reiciendis porro blanditiis saepe? Nihil cum ab unde harum animi laudantium quos voluptas placeat quo, repellendus error sapiente nesciunt repellat consectetur voluptatem! Atque odio sequi sapiente fuga quo amet at eum quia. Voluptas, officia.</p>
-              <p>Ipsa ex quidem modi consequuntur commodi deleniti, voluptatem aut veniam iusto doloribus architecto fuga nihil ea? Nulla minus adipisci vitae eos beatae illo cumque at, impedit, dolor voluptate rerum a ut est cupiditate vel saepe similique expedita iusto id amet laboriosam sapiente voluptates quae. Quod rem dicta doloremque magnam, consequuntur asperiores eveniet officiis ut natus ullam!</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="md-layout-item sm-size-100 md-size-50">
-          <div class="director darker">
-            <div class="intro">
-              <img v-bind:src="aboutTeam.aboutTeam1" alt />
-              <h4>Joey Toboni</h4>
-              <h5>Founder, Board President, Interim Executive Director</h5>
-            </div>
-            <div class="bio">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ullam reiciendis porro blanditiis saepe? Nihil cum ab unde harum animi laudantium quos voluptas placeat quo, repellendus error sapiente nesciunt repellat consectetur voluptatem! Atque odio sequi sapiente fuga quo amet at eum quia. Voluptas, officia.</p>
-              <p>Ipsa ex quidem modi consequuntur commodi deleniti, voluptatem aut veniam iusto doloribus architecto fuga nihil ea? Nulla minus adipisci vitae eos beatae illo cumque at, impedit, dolor voluptate rerum a ut est cupiditate vel saepe similique expedita iusto id amet laboriosam sapiente voluptates quae. Quod rem dicta doloremque magnam, consequuntur asperiores eveniet officiis ut natus ullam!</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="md-layout-item sm-size-100 md-size-50">
-          <div class="director lighter">
-            <div class="intro">
-              <img v-bind:src="aboutTeam.aboutTeam1" alt />
-              <h4>Joey Toboni</h4>
-              <h5>Founder, Board President, Interim Executive Director</h5>
-            </div>
-            <div class="bio">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ullam reiciendis porro blanditiis saepe? Nihil cum ab unde harum animi laudantium quos voluptas placeat quo, repellendus error sapiente nesciunt repellat consectetur voluptatem! Atque odio sequi sapiente fuga quo amet at eum quia. Voluptas, officia.</p>
-              <p>Ipsa ex quidem modi consequuntur commodi deleniti, voluptatem aut veniam iusto doloribus architecto fuga nihil ea? Nulla minus adipisci vitae eos beatae illo cumque at, impedit, dolor voluptate rerum a ut est cupiditate vel saepe similique expedita iusto id amet laboriosam sapiente voluptates quae. Quod rem dicta doloremque magnam, consequuntur asperiores eveniet officiis ut natus ullam!</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="md-layout-item sm-size-100 md-size-50">
+        <div class="md-layout-item md-xsmall-size-100 md-size-50">
           <div class="director blue">
             <div class="intro">
               <img v-bind:src="aboutTeam.aboutTeam1" alt />
-              <h4>Joey Toboni</h4>
-              <h5>Founder, Board President, Interim Executive Director</h5>
-            </div>
-            <div class="bio">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ullam reiciendis porro blanditiis saepe? Nihil cum ab unde harum animi laudantium quos voluptas placeat quo, repellendus error sapiente nesciunt repellat consectetur voluptatem! Atque odio sequi sapiente fuga quo amet at eum quia. Voluptas, officia.</p>
-              <p>Ipsa ex quidem modi consequuntur commodi deleniti, voluptatem aut veniam iusto doloribus architecto fuga nihil ea? Nulla minus adipisci vitae eos beatae illo cumque at, impedit, dolor voluptate rerum a ut est cupiditate vel saepe similique expedita iusto id amet laboriosam sapiente voluptates quae. Quod rem dicta doloremque magnam, consequuntur asperiores eveniet officiis ut natus ullam!</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="md-layout-item sm-size-100 md-size-50">
-          <div class="director gray">
-            <div class="intro">
-              <img v-bind:src="aboutTeam.aboutTeam2" alt />
               <h4>Katy Tang</h4>
               <h5>Board Member</h5>
             </div>
@@ -106,227 +36,115 @@
             </div>
           </div>
         </div>
+
+        <div class="md-layout-item md-xsmall-size-100 md-size-50">
+          <div class="director blue">
+            <div class="intro">
+              <img v-bind:src="aboutTeam.aboutTeam2" alt />
+              <h4>Tim Vrabel</h4>
+              <h5>Principal and Chief Financial Officer | Emerald Fund, Inc.</h5>
+            </div>
+            <div class="bio">
+              <p>Tim joined Emerald Fund in 2006 and oversees the financial affairs of the company encompassing both real estate development and property management activities. Over that time, Tim has been part of the core team that has built over 1,300 new market rate and affordable residential apartments, and sold over 500 residential condominiums. Tim received a BS in Finance & International Business from Penn State University and has earned accreditation as a Certified Management Accountant and a Certified Financial Manager. He also holds a California Real Estate Broker's License.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="md-layout-item md-xsmall-size-100 md-size-50">
+          <div class="director blue">
+            <div class="intro">
+              <img v-bind:src="aboutTeam.aboutTeam" alt />
+              <h4>Jerry Cullinane</h4>
+              <h5>Board Member</h5>
+            </div>
+            <div class="bio">
+              <p>Jerry Cullinane is the founder and principal of Cullinane Construction and is a general contractor with 30 years of construction in San Francisco multi-unit building. He has constructed or renovated over 200 multi-unit building in San Francisco and has deep experience in concrete and wood rough construction, code compliance and regulations, project pricing, engineering and construction processes and mechanisms. Jerry hails from Ireland and currently resides in San Francisco.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="md-layout-item md-xsmall-size-100 md-size-50">
+          <div class="director blue">
+            <div class="intro">
+              <img v-bind:src="aboutTeam.aboutTeam" alt />
+              <h4>Adam Tartakovsky</h4>
+              <h5>Board Member</h5>
+            </div>
+            <div class="bio">
+              <p>Adam Tartakovsky is the Senior Vice President in charge of all west coast development for Crescent Heights. He personally led the development of multiple high rise projects in San Francisco including the Nema, the Jasper, the Metropolitan, 524 Howard, 325 Fremont and 10 South Van Ness as well the Paladium, 11th and Olive and the Remington in Los Angeles and 4th and Columbia in Seattle.</p>
+
+              <p>Adam is a graduate of University of Pennslyvania law school and practiced real estate law before becoming a involved in high rise development. Adam is a native San Franciscan.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="md-layout-item md-xsmall-size-100 md-size-50">
+          <div class="director blue">
+            <div class="intro">
+              <img v-bind:src="aboutTeam.aboutTeam8" alt />
+              <h4>Joey Toboni</h4>
+              <h5>Board Member</h5>
+            </div>
+            <div class="bio">
+              <p>Joey Toboni is the founder and president of the Board of Directors for the Affordability Project. He conceived of the idea in order to give low and middle income individuals a path to affordable housing.</p>
+
+              <p>He is the managing partner of residential contracting firm, The Toboni Group - Residential and has built or reconstructed over 60 homes in the San Francisco Bay Area. He has more than ten years of experience in construction, land entitlement, construction finance and real estate development. He graduated with honors as the Student Athlete of the year from Lewis and Clark College.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="md-layout-item md-xsmall-size-100 md-size-50">
+          <div class="director blue">
+            <div class="intro">
+              <img v-bind:src="aboutTeam.aboutTeam4" alt />
+              <h4>Mary Toboni</h4>
+              <h5>Board Member</h5>
+            </div>
+            <div class="bio">
+              <p>Mary Toboni has over 40 years of experience in Real Estate sales and valuation in San Francisco and has sold hundreds of homes and buildings in the San Francisco Bay Area. She is a philanthropist in board member for several non-profit organizations in the San Francisco Bay Area. She is a graduate of Santa Clara University and is a native San Franciscan.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="md-layout-item md-xsmall-size-100 md-size-50">
+          <div class="director blue">
+            <div class="intro">
+              <img v-bind:src="aboutTeam.aboutTeam6" alt />
+              <h4>Joe Toboni</h4>
+              <h5>Board Member</h5>
+            </div>
+            <div class="bio">
+              <p>Joe Toboni has over 35 years of real estate development and construction experience in San Francisco. He was raised by a low-income single mother and in his career has led the development of hundreds of housing units from acquisition to occupancy. He has also constructed countless below market units in the San Francisco Bay Area. Joe is a native San Franciscan and a graduate of the University of San Francisco.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="md-layout-item md-xsmall-size-100 md-size-50">
+          <div class="director blue">
+            <div class="intro">
+              <img v-bind:src="aboutTeam.aboutTeam5" alt />
+              <h4>James Sangiacomo</h4>
+              <h5>Board Member</h5>
+            </div>
+            <div class="bio">
+              <p>James Sangiacomo is a principal of Trinity Property. Trinity is among the largest owners of residential real estate in San Francisco. Most recently Sangiacomo led the development of 1900 housing units at 8th and Market in San Francisco which is widely considered one of the largest single project influxes of residential housing in San Francisco history. Sangiacomo is a native San Franciscan.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="md-layout-item md-xsmall-size-100 md-size-50">
+          <div class="director blue">
+            <div class="intro">
+              <img v-bind:src="aboutTeam.aboutTeam" alt />
+              <h4>Hillary Newsom</h4>
+              <h5>Board Member</h5>
+            </div>
+            <div class="bio">
+              <p>Hillary Newsom is a successful entrepreneur and non-profit leader. She built Plump Jack Wine from a single location into a vast retain and hotel business with 1,000 employees. She is also a successful non-profit leader, raising hundreds of thousands of dollars annually for different causes. She is a graduate of Georgetown University.</p>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <!-- </div>-->
-      <!-- <div class="md-layout-item">BBBB</div> -->
-      <!-- </div> -->
-      <!-- </div>
-      </parallax>-->
-      <!-- <div class="md-layout">
-        <div class="md-layout-item md-size-100 mx-auto text-center">
-          <h1 class="title">Directors</h1>
-          <h4>We will identify San Franciscans who are eligible recipients of our donations and bring candidates through a vetting process.</h4>
-        </div>
-        <div class="md-layout-item md-size-100">
-          <h1>well?</h1>
-        </div>
-        <div class="md-layout-item md-size-100">
-          <h1>well?</h1>
-        </div>
-      </div>-->
-      <!-- <div class="container"> -->
-      <!-- <div class="md-layout">
-            <div class="md-layout-item md-size-33 md-small-size-100">
-              <profile-card
-                card-plain
-                card-avatar
-                :shadow-normal="false"
-                :no-colored-shadow="false"
-                :card-image="aboutTeam.aboutTeam1"
-              >
-                <template slot="cardContent">
-                  <v-popover offset="4" placement="bottom">
-                    <h4 class="card-title">Joey Toboni</h4>
-                    <template slot="popover">
-                      <div
-                        class="popover-body"
-                      >Joey Toboni conceived the idea for the affordability project to build and subsidize teacher and other middle income housing in San Francisco. He has ten years of construction and real estate experience and serves on several non-profit boards in San Francisco.</div>
-                    </template>
-                  </v-popover>
-
-                  <p class="card-description">Founder, Board President, Interim Executive Director</p>
-                </template>
-              </profile-card>
-            </div>
-            <div class="md-layout-item md-size-33 md-small-size-100">
-              <profile-card
-                card-plain
-                card-avatar
-                :shadow-normal="false"
-                :no-colored-shadow="false"
-                :card-image="aboutTeam.aboutTeam2"
-              >
-                <template slot="cardContent">
-                  <v-popover offset="4" placement="bottom">
-                    <h4 class="card-title">Katy Tang</h4>
-                    <template slot="popover">
-                      <div
-                        class="popover-body"
-                      >Katy Tang was San Francisco District 4 supervisor between 2013-2018 and President of the Board of Supervisors in 2014. She is a passionate advocate for middle-income housing in San Francisco and a gifted land use professional.</div>
-                    </template>
-                  </v-popover>
-
-                  <p class="card-description">Board Member</p>
-                </template>
-              </profile-card>
-            </div>
-            <div class="md-layout-item md-size-33 md-small-size-100">
-              <profile-card
-                card-plain
-                card-avatar
-                :shadow-normal="false"
-                :no-colored-shadow="false"
-                :card-image="aboutTeam.aboutTeam3"
-              >
-                <template slot="cardContent">
-                  <v-popover offset="4" placement="bottom">
-                    <h4 class="card-title">Hilary Newsome</h4>
-                    <template slot="popover">
-                      <div
-                        class="popover-body"
-                      >Hilary Newsom is a San Francisco native and successful entreprenur. She built Plump Jack Wine from a single location into a vast retail and hotel business. She is also a successful non-profit leader, raising hundreds of thousands annually.</div>
-                    </template>
-                  </v-popover>
-
-                  <p class="card-description">Board Member</p>
-                </template>
-              </profile-card>
-            </div>
-            <div class="md-layout-item md-size-33 md-small-size-100">
-              <profile-card
-                card-plain
-                card-avatar
-                :shadow-normal="false"
-                :no-colored-shadow="false"
-                :card-image="aboutTeam.aboutTeam4"
-              >
-                <template slot="cardContent">
-                  <v-popover offset="4" placement="bottom">
-                    <h4 class="card-title">Mary Toboni</h4>
-                    <template slot="popover">
-                      <div
-                        class="popover-body"
-                      >Mary Toboni has over 40 years of experience in Real Estate sales and valuation in San Francisco. Along with her husband Joe she is recognized as philanthropy leader in San Francisco. She is a fifth-generation San Francisco with a keen ability for fundraising.</div>
-                    </template>
-                  </v-popover>
-
-                  <p class="card-description">Board Member</p>
-                </template>
-              </profile-card>
-            </div>
-            <div class="md-layout-item md-size-33 md-small-size-100">
-              <profile-card
-                card-plain
-                card-avatar
-                :shadow-normal="false"
-                :no-colored-shadow="false"
-                :card-image="aboutTeam.aboutTeam5"
-              >
-                <template slot="cardContent">
-                  <v-popover offset="4" placement="bottom">
-                    <h4 class="card-title">Jim Sangiacomo</h4>
-                    <template slot="popover">
-                      <div
-                        class="popover-body"
-                      >Jim Sangiacomo is a principal of Trinity Property. Trinity is among the largest owners of residential real estate in San Francisco. Sangiacomo most recently helped lead the 1900 unit development at 8th and Market Street in San Francisco.</div>
-                    </template>
-                  </v-popover>
-
-                  <p class="card-description">Board Member</p>
-                </template>
-              </profile-card>
-            </div>
-            <div class="md-layout-item md-size-33 md-small-size-100">
-              <profile-card
-                card-plain
-                card-avatar
-                :shadow-normal="false"
-                :no-colored-shadow="false"
-                :card-image="aboutTeam.aboutTeam6"
-              >
-                <template slot="cardContent">
-                  <v-popover offset="4" placement="bottom">
-                    <h4 class="card-title">Joe Toboni</h4>
-                    <template slot="popover">
-                      <div
-                        class="popover-body"
-                      >Joe Toboni has over 35 years of real estate development experience in San Francisco. He was raised by a low-income single mother and in his tenure has led the development of over 350 housing units in San Francisco from acquisition to occupancy.</div>
-                    </template>
-                  </v-popover>
-
-                  <p class="card-description">Board Member</p>
-                </template>
-              </profile-card>
-            </div>
-            <div class="md-layout-item md-size-33 md-small-size-100">
-              <profile-card
-                card-plain
-                card-avatar
-                :shadow-normal="false"
-                :no-colored-shadow="false"
-                :card-image="aboutTeam.aboutTeam7"
-              >
-                <template slot="cardContent">
-                  <v-popover offset="4" placement="bottom">
-                    <h4 class="card-title">Michael Farrah</h4>
-                    <template slot="popover">
-                      <div
-                        class="popover-body"
-                      >Mike Farrah served as an aide to public officials including San Francisco Mayors Edwin Lee, Gavin Newsom, Frank Jordan and United States Congressman Tom Lantos. He currently serves on the board of directors of the Teacher's Salary Project.</div>
-                    </template>
-                  </v-popover>
-
-                  <p class="card-description">Board Member</p>
-                </template>
-              </profile-card>
-            </div>
-            <div class="md-layout-item md-size-33 md-small-size-100">
-              <profile-card
-                card-plain
-                card-avatar
-                :shadow-normal="false"
-                :no-colored-shadow="false"
-                :card-image="aboutTeam.aboutTeam8"
-              >
-                <template slot="cardContent">
-                  <v-popover offset="4" placement="bottom">
-                    <h4 class="card-title">Tim Vrabel</h4>
-                    <template slot="popover">
-                      <div
-                        class="popover-body"
-                      >Tim is a principal and the CFO of the Emerald Fund, one of San Francisco's biggest and most prolific development companies. The emerald fund developed such iconic structures such as: 100 Van Ness, The Civic, 150 Van Ness, Portside Condo Buildings, Ricon Green and Hotel Vitale.</div>
-                    </template>
-                  </v-popover>
-
-                  <p class="card-description">Board Member</p>
-                </template>
-              </profile-card>
-            </div>
-            <div class="md-layout-item md-size-33 md-small-size-100">
-              <profile-card
-                card-plain
-                card-avatar
-                :shadow-normal="false"
-                :no-colored-shadow="false"
-                :card-image="aboutTeam.aboutTeam9"
-              >
-                <template slot="cardContent">
-                  <v-popover offset="4" placement="bottom">
-                    <h4 class="card-title">Jerry Cullinane</h4>
-                    <template slot="popover">
-                      <div
-                        class="popover-body"
-                      >Jerry is a San Francisco general contractor who has led the construction of over 2,000 units in San Francisco. He specializes in ground up construction and concrete, steel, post tension podium and wood framed structures.</div>
-                    </template>
-                  </v-popover>
-
-                  <p class="card-description">Board Member</p>
-                </template>
-              </profile-card>
-            </div>
-      </div>-->
-      <!-- </div> -->
     </div>
     <!-- </parallax> -->
     <!-- <div class="main main-raised">
@@ -403,15 +221,16 @@ export default {
       email: null,
       image: require("@/assets/img/san-francisco-housing.jpg"),
       aboutTeam: {
-        aboutTeam1: require("@/assets/img/staff/joey.jpg"),
-        aboutTeam2: require("@/assets/img/staff/katy.jpg"),
+        aboutTeam2: require("@/assets/img/staff/tim.jpg"),
+        aboutTeam1: require("@/assets/img/staff/katy.jpg"),
         aboutTeam3: require("@/assets/img/staff/hilary.jpg"),
         aboutTeam4: require("@/assets/img/staff/mary.jpg"),
         aboutTeam5: require("@/assets/img/staff/james.jpg"),
         aboutTeam6: require("@/assets/img/staff/joe.jpg"),
         aboutTeam7: require("@/assets/img/staff/michael.jpg"),
         aboutTeam8: require("@/assets/img/staff/joey.jpg"),
-        aboutTeam9: require("@/assets/img/staff/joey.jpg")
+        aboutTeam9: require("@/assets/img/staff/joey.jpg"),
+        aboutTeam: require("@/assets/img/staff/fpo.jpg")
       }
       // aboutOffice: {
       //   aboutOffice1: require("@/assets/img/examples/office2.jpg"),
@@ -499,5 +318,20 @@ html {
 .gray {
   background-color: rgba(72, 72, 72, 0.9);
   color: #fff;
+}
+
+@media (max-width: 900px) {
+  .director {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    display: block;
+    background-color: #3c4858;
+    color: #fff;
+    .bio {
+      text-align: center;
+      padding-left: 0px;
+    }
+  }
 }
 </style>

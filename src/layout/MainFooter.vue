@@ -16,7 +16,7 @@
                 <router-link to="/about">Affordability Project</router-link>
               </li>
               <li>
-                <router-link to="/management">Management</router-link>
+                <router-link to="/directors">Management</router-link>
               </li>
               <li>
                 <router-link to="/projects">Projects</router-link>

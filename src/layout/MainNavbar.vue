@@ -214,19 +214,17 @@ export default {
   },
   watch: {
     $route() {
-      if (this.$route.name === "home") {
-        // this.toggledClass = false;
-        this.toggleNavbarMobile();
-      }
       // close mobile menu
-      this.toggleNavbarMobile();
       this.toggledClass = false;
+      this.NavbarStore.showNavbar = false;
       // dark nav on contact
       if (this.$route.name === "contact") {
         this.navClass = "md-default";
       } else {
         this.navClass = "md-transparent";
       }
+      // scroll position
+      window.scrollTo(0, 0);
     }
   }
 };
