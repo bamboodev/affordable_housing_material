@@ -230,7 +230,7 @@ export default {
       speciality: "",
       name: null,
       email: null,
-      image: require("@/assets/img/san-francisco-housing.jpg"),
+      image: require("@/assets/img/san-francisco-affordable-housing-board-of-directors.jpg"),
       aboutTeam: {
         aboutTeam2: require("@/assets/img/staff/tim.jpg"),
         aboutTeam1: require("@/assets/img/staff/katy.jpg"),
@@ -273,7 +273,8 @@ html {
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   }
   h1.title, h4.title {
-    color: gray !important;
+    color: white !important;
+     text-shadow: 2px 2px 5px #000000;
   }
 }
 .mt-2 {
@@ -327,7 +328,7 @@ html {
   color: rgba(0, 0, 0, 0.9);
 }
 .blue {
-  background-color: #a0a0a0;
+  background-color: rgba(255, 255, 255, 0.9);
   color: rgba(0, 0, 0, 0.7);
 }
 .gray {

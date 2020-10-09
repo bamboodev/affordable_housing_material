@@ -21,7 +21,7 @@
             <div class="md-layout-item md-size-66 md-small-size-100 mx-auto">
               <h5
                 class="description"
-              >Our organization is run by individuals with deep experience and understanding of San Francisco development, land entitlement, real estate financing and construction. We leverage our collective experience and network to build working class housing in San Francisco.</h5>
+              >Our organization is run by individuals with deep experience and understanding of San Francisco non-profit work, development, public service, land entitlement, real estate financing, policy and construction. We leverage our collective experience and network to build working class housing in San Francisco.</h5>
             </div>
           </div>
         </div>
@@ -184,33 +184,35 @@
               >Please, join our team. Together, we will identify San Franciscans who are eligible recipients of our donations and bring candidates through a vetting process.</h4>
             </div>
             <div class="md-layout-item md-size-66 md-small-size-100 mx-auto">
+              <form action="https://formspree.io/f/maylqknl" method="POST">
               <div class="md-layout">
                 <div class="md-layout-item md-size-33 md-small-size-100">
                   <md-field>
                     <label>Your name</label>
-                    <md-input v-model="name" />
+                    <md-input v-model="name" name="name"/>
                   </md-field>
                 </div>
                 <div class="md-layout-item md-size-33 md-small-size-100">
                   <md-field>
                     <label>Your email</label>
-                    <md-input v-model="email" />
+                    <md-input v-model="email" name="email"/>
                   </md-field>
                 </div>
                 <div class="md-layout-item md-size-33 md-small-size-100">
                   <md-field>
                     <label for="movie">Your Role</label>
                     <md-select id="speciality" v-model="speciality" name="speciality">
-                      <md-option value>I'm a resident</md-option>
-                      <md-option value>I'm a builder</md-option>
-                      <md-option value>I want to donate</md-option>
+                      <md-option value="resident">I'm a resident</md-option>
+                      <md-option value="builder">I'm a builder</md-option>
+                      <md-option value="donate">I want to donate</md-option>
                     </md-select>
                   </md-field>
                 </div>
                 <div class="md-layout-item md-size-100 text-center">
-                  <md-button href="javascript:void(0)" class="md-primary md-round mt-2">Join Us</md-button>
+                  <md-button type="submit" class="md-primary md-round mt-2">Join Us</md-button>
                 </div>
               </div>
+              </form>
             </div>
           </div>
         </div>

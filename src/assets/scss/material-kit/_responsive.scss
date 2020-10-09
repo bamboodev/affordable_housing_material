@@ -468,9 +468,11 @@
 @media (min-width: 1200px) {
   .md-toolbar-row,
   .section .container,
-  .page-header .container,
+  .page-header .container {
+      max-width: 1840px;
+  }
   .footer .container {
-      max-width: 1140px;
+    max-width: 1140px;
   }
 }
 
