@@ -21,8 +21,8 @@
 
       <div class="md-layout">
 
-         <div class="md-layout-item md-xsmall-size-100 md-size-50">
-          <div class="director blue">
+         <div class="md-layout-item md-xsmall-size-100 md-size-50" >
+          <div class="director blue" id="joey">
             <div class="intro">
               <img v-bind:src="aboutTeam.aboutTeam8" alt />
               <h4>Joey Toboni</h4>
@@ -36,7 +36,22 @@
           </div>
         </div>
 
-        <div class="md-layout-item md-xsmall-size-100 md-size-50">
+         <div class="md-layout-item md-xsmall-size-100 md-size-50">
+          <div class="director blue" id="temp">
+            <!-- <div class="intro">
+              <img v-bind:src="aboutTeam.aboutTeam8" alt />
+              <h4>Joey Toboni</h4>
+              <h5>Founder and President of the Board</h5>
+            </div> -->
+            <div class="bio temp">
+              <div><h3>Board Members</h3>
+              <h5>Coming Soon</h5></div>
+              
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="md-layout-item md-xsmall-size-100 md-size-50">
           <div class="director blue">
             <div class="intro">
               <img v-bind:src="aboutTeam.aboutTeam6" alt />
@@ -142,7 +157,7 @@
               <p>Jerry Cullinane is the founder and principal of Cullinane Construction and is a general contractor with 30 years of construction in San Francisco multi-unit building. He has constructed or renovated over 200 multi-unit building in San Francisco and has deep experience in concrete and wood rough construction, code compliance and regulations, project pricing, engineering and construction processes and mechanisms. Jerry hails from Ireland and currently resides in San Francisco.</p>
             </div>
           </div>
-        </div>
+        </div> -->
 
        
 
@@ -230,7 +245,7 @@ export default {
       speciality: "",
       name: null,
       email: null,
-      image: require("@/assets/img/san-francisco-housing.jpg"),
+      image: require("@/assets/img/san-francisco-affordable-housing-board-of-directors.jpg"),
       aboutTeam: {
         aboutTeam2: require("@/assets/img/staff/tim.jpg"),
         aboutTeam1: require("@/assets/img/staff/katy.jpg"),
@@ -252,6 +267,12 @@ export default {
       //   aboutOffice5: require("@/assets/img/examples/office1.jpg")
       // }
     };
+  },
+  mounted: function () {
+    let joey = document.querySelector("#joey");
+    console.log(joey.clientHeight);
+    let temp = document.querySelector("#temp");
+    temp.style.height = joey.clientHeight + "px"
   }
 };
 </script>
@@ -273,7 +294,8 @@ html {
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   }
   h1.title, h4.title {
-    color: gray !important;
+    color: white !important;
+     text-shadow: 2px 2px 5px #000000;
   }
 }
 .mt-2 {
@@ -327,7 +349,7 @@ html {
   color: rgba(0, 0, 0, 0.9);
 }
 .blue {
-  background-color: #a0a0a0;
+  background-color: rgba(255, 255, 255, 0.9);
   color: rgba(0, 0, 0, 0.7);
 }
 .gray {
@@ -347,6 +369,32 @@ html {
       text-align: center;
       padding-left: 0px;
     }
+  }
+}
+.temp {
+  min-height: 300px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  div {
+    text-align: center;
+  }
+  h3, h5 {
+    display: inline-block;
+    height: 30px;
+    width: 100%;
+  }
+  h3 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #484848;
+    box-sizing: content-box;
+  }
+  h5 {
+    padding-top: 1px;
+    margin-top: 1px;
   }
 }
 </style>

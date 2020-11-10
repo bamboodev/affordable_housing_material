@@ -38,10 +38,9 @@
               <info-areas class="pt-0" info-horizontal>
                 <h4 slot="title" class="info-title">Find us at the office</h4>
                 <div slot="content" class="description">
-                  <p>
-                    123 Main St,
-                    <br />San Francisco,
-                    <br />California
+                  <p>Affordability Project
+                    <br>3364 Sacramento Street
+<br>San Francisco, CA 94118
                   </p>
                 </div>
               </info-areas>
@@ -50,7 +49,7 @@
                 <div slot="content" class="description">
                   <p>
                     Customer Service
-                    <br />+1 888 555 1212
+                    <br />+1 415.359.9842
                     <br />Mon - Fri, 8:00-22:00
                   </p>
                 </div>
@@ -60,9 +59,8 @@
                 <div slot="content" class="description">
                   <p>
                     Affordability Project
-                    <br />123 Main St,
-                    <br />San Francisco,
-                    <br />California
+                    <br>3364 Sacramento Street
+<br>San Francisco, CA 94118
                   </p>
                 </div>
               </info-areas>

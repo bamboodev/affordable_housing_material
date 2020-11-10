@@ -10,7 +10,7 @@ import Tenants from './pages/Tenants.vue'
 import Corporations from './pages/Corporations.vue'
 import DonateHousing from './pages/DonateHousing.vue'
 import Directors from './pages/Directors.vue'
-import Directors2 from './pages/Directors2.vue'
+// import Directors2 from './pages/Directors2.vue'
 // import Development from './pages/Development.vue'
 // import Survey from './pages/Survey.vue'
 // import Press from './pages/Press.vue'
@@ -65,11 +65,11 @@ export default new Router({
             name: 'directors',
             component: Directors
         },
-        {
-            path: '/directors2',
-            name: 'directors2',
-            component: Directors2
-        },
+        // {
+        //     path: '/directors2',
+        //     name: 'directors2',
+        //     component: Directors2
+        // },
         {
             path: '/contact',
             name: 'contact',
