@@ -31,7 +31,7 @@
             <div class="bio">
               <p>Joey Toboni is the founder and president of the Board of Directors for the Affordability Project. He conceived of the idea in order to give low and middle income individuals a path to affordable housing.</p>
 
-              <p>He is the managing partner of residential contracting firm, The Toboni Group - Residential and has built or reconstructed over 60 homes in the San Francisco Bay Area. He has more than ten years of experience in construction, land entitlement, construction finance and real estate development. He graduated with honors as the Student Athlete of the year from Lewis and Clark College.</p>
+              <p>He is the managing partner of residential contracting firm, The Toboni Group - Residential and has built or reconstructed over 60 homes in the San Francisco Bay Area. He has more than ten years of experience in construction, land entitlement, construction finance and real estate development. Joey is the Big Brother to another Native San Franciscan who was born and raised in San Francisco's public housing. Joey and his wife continue to live in San Francisco with their three kids.</p>
             </div>
           </div>
         </div>
