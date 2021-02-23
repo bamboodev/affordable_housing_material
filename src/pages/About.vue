@@ -19,6 +19,17 @@
         <div class="container">
           <div class="md-layout">
             <div class="md-layout-item md-size-66 md-small-size-100 mx-auto">
+              <h1 class="title">Statistics</h1>
+            <h4>Our middle class and workforce population has been left behind. According to data from early 2020 from the San Francisco Mayor's Office of Housing:</h4>
+
+            <ul style="margin-bottom: 50px; list-style-type: none;">
+              <li>San Francisco did not add one new unit at AMI 91%-150% AMI</li>
+              <li>Less than 2% of all BMRs were for AMI 90-90%</li>
+              <li>Over 85% of newly constructed BMR units were for AMI equal to or less than 50% of AMI</li>
+            </ul>
+
+            <hr style="margin-bottom: 50px;">
+
               <h5
                 class="description"
               >Our organization is run by individuals with deep experience and understanding of San Francisco non-profit work, development, public service, land entitlement, real estate financing, policy and construction. We leverage our collective experience and network to build working class housing in San Francisco.</h5>
