@@ -28,7 +28,7 @@
               <li>In 2019, over 85% of newly constructed BMR units were for AMI equal to or less than 50% of AMI</li>
             </ul>
 
-            <hr style="margin-bottom: 50px;"In 2019, >
+            <hr style="margin-bottom: 50px;">
 
               <h5
                 class="description"
