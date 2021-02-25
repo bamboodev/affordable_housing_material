@@ -23,12 +23,12 @@
             <h4>Our middle class and workforce population has been left behind. According to data from early 2020 from the San Francisco Mayor's Office of Housing:</h4>
 
             <ul style="margin-bottom: 50px; list-style-type: none;">
-              <li>San Francisco did not add one new unit at AMI 91%-150% AMI</li>
-              <li>Less than 2% of all BMRs were for AMI 90-90%</li>
-              <li>Over 85% of newly constructed BMR units were for AMI equal to or less than 50% of AMI</li>
+              <li>In 2019, San Francisco did not add one new unit at AMI 91%-150% AMI</li>
+              <li>In 2019, less than 2% of all BMRs were for AMI 90-90%</li>
+              <li>In 2019, over 85% of newly constructed BMR units were for AMI equal to or less than 50% of AMI</li>
             </ul>
 
-            <hr style="margin-bottom: 50px;">
+            <hr style="margin-bottom: 50px;"In 2019, >
 
               <h5
                 class="description"
